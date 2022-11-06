@@ -1,0 +1,19 @@
+ALGORITHM check2
+VAR
+t1:INTEGER
+t2:INTEGER
+count:INTEGER := 0
+a1:INTEGER
+a2:INTEGER
+BEGIN
+    FOR i FROM 0 TO t1.length-1 STEP   DO
+        FOR j FROM 0 TO t2.length-1  STEP  DO
+IF (t1 == t2) THEN
+    t1:=a1[i]
+    t2:=a2[j]
+    
+END_IF
+count:= count+a1+a2        
+END_FOR
+    END_FOR
+END
